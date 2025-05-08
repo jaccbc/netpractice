@@ -29,7 +29,7 @@ fclean: clean
 
 re: fclean all
 
-run: $(FOLDER)
+run: $(NAME)
 	/usr/bin/firefox-esr $(NAME) > /dev/null 2>&1 &
 
 rerun: re run
