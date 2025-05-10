@@ -6,7 +6,7 @@
 #    By: joandre- <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/05/07 16:29:18 by joandre-          #+#    #+#              #
-#    Updated: 2025/05/08 01:28:26 by joandre-         ###   ########.fr        #
+#    Updated: 2025/05/10 17:09:32 by joandre-         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -30,6 +30,6 @@ fclean: clean
 re: fclean all
 
 run: $(NAME)
-	/usr/bin/firefox-esr $(NAME) > /dev/null 2>&1 &
+	/usr/bin/google-chrome $(NAME) > /dev/null 2>&1 &
 
 rerun: re run
